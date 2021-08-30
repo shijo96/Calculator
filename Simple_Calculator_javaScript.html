@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="cal_style.css">
+</head>
+<body>
+    <div class="main-body">
+        <div class="calculator">
+            <h2 id="calc-head">Calculator</h2>
+            <div class="result">
+                <input type="text" name="" id="display" class="output">
+            </div>
+            <div class="buttons">
+                <div class="rows">
+                   
+                    <input type="button" name="" id="clrr" class="btn-clr" value="C" onclick="clr()">
+                </div>
+                <div class="rows">
+                    <input type="button" name="" id="" class="btn" value="7" onclick="btClick(7)">
+                    <input type="button" name="" id="" class="btn" value="8" onclick="btClick(8)">
+                    <input type="button" name="" id="" class="btn" value="9" onclick="btClick(9)">
+                    <input type="button" name="" id="" class="btn" value="/" onclick="btClick('/')">
+                </div>
+                <div class="rows">
+                    <input type="button" name="" id="" class="btn" value="4" onclick="btClick(4)">
+                    <input type="button" name="" id="" class="btn" value="5" onclick="btClick(5)">
+                    <input type="button" name="" id="" class="btn" value="6" onclick="btClick(6)">
+                    <input type="button" name="" id="" class="btn" value="*" onclick="btClick('*')">
+                </div>
+                <div class="rows">
+                    <input type="button" name="" id="" class="btn" value="1" onclick="btClick(1)">
+                    <input type="button" name="" id="" class="btn" value="2" onclick="btClick(2)">
+                    <input type="button" name="" id="" class="btn" value="3" onclick="btClick(3)">
+                    <input type="button" name="" id="" class="btn" value="-" onclick="btClick('-')">
+                </div>
+                <div class="rows">
+                    <input type="button" name="" id="" class="btn" value="." onclick="btClick('.')">
+                    <input type="button" name="" id="" class="btn" value="0" onclick="btClick(0)">
+                    <input type="button" name="" id="" class="btn" value="+" onclick="btClick('+')">
+                    <input type="button" name="" id="" class="btn" value="=" onclick="btEql('=')">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    
+
+    <script src="calc_script.js"></script>
+</body>
+</html>
